@@ -5,8 +5,8 @@ import (
 )
 
 func main (){
-	number := 1991
-	result := isPalindrome(number)
+	number := "XIX"
+	result := romanToInt(number)
 
-	fmt.Printf("El número %d es palíndromo: %t", number, result)
+	fmt.Printf("El número %s en entero es: %d", number, result)
 }
