@@ -5,8 +5,8 @@ import (
 )
 
 func main (){
-	number := "XIX"
-	result := romanToInt(number)
+	strs := []string{"ca"}
+	result := longestCommonPrefix(strs)
 
-	fmt.Printf("El número %s en entero es: %d", number, result)
+	fmt.Printf("El prefijo común es: %s", result)
 }
