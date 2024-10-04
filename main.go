@@ -5,8 +5,8 @@ import (
 )
 
 func main (){
-	strs := []string{"ca"}
-	result := longestCommonPrefix(strs)
+	strs := "([)]"
+	result := isValid(strs)
 
-	fmt.Printf("El prefijo común es: %s", result)
+	fmt.Printf("Es válido: %t", result)
 }
